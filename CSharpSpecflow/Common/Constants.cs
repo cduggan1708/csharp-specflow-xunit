@@ -12,7 +12,7 @@ namespace CSharpSpecflow.Common
         public const string MortgageCalculator = @"https://www.mortgagecalculator.net/";
         public const string MortgageCalculatorLoadedId = "mortageCalculatorForm";
         public const int DefaultTimeout = 20;
-        public const string ReportingFolder = @"Reports\";
-        public const string ReportingImagesFolder = @"Images\";
+        public const string ReportingFolder = "Reports\\";
+        public const string ReportingImagesFolder = "Images\\";
     }
 }
