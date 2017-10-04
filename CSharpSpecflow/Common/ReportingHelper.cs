@@ -10,6 +10,7 @@ namespace CSharpSpecflow.Common
             string uuid = Guid.NewGuid().ToString();
             string fileNameRelative = Constants.ReportingImagesFolder + uuid + ".png";
             string fileName = Constants.ReportingFolder + fileNameRelative;
+            Console.WriteLine("filename to write to: " + fileName);
 
             Screenshot screen = ((ITakesScreenshot)driver).GetScreenshot();
             screen.SaveAsFile(fileName, ScreenshotImageFormat.Png);
